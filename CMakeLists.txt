@@ -66,6 +66,7 @@ set (HEADERS
     vtkMapPickResult.h
     vtkMapTile.h
     vtkMap.h
+    vtkMercator.h
     vtkLayer.h
     vtkOsmLayer.h
     vtkPolydataFeature.h

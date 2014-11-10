@@ -177,7 +177,7 @@ void vtkMap::ShowArea(double latLngCoords[4])
   center[1] = 0.5 * (latLngCoords[1] + latLngCoords[3]);
 
   this->SetCenter(center);
-  this->SetZoom(zoom);
+  this->SetZoom(zoom-1);
 
   // Update camera if initialized
   if (this->Renderer)
